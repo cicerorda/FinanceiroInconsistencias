@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1240,1394</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1152,1481</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -111,28 +111,28 @@
       <AssemblyReference>System.Collections.Immutable</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="546,1329" sap2010:WorkflowViewState.IdRef="Sequence_11">
+  <Sequence sap:VirtualizedContainerService.HintSize="546,1376" sap2010:WorkflowViewState.IdRef="Sequence_11">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="LogarNewcon.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="484,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="LogarNewcon.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="LogarNewcon.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="484,122" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="LogarNewcon.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <scg:Dictionary x:TypeArguments="x:String, Argument" />
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="BaixarRelatorio.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="484,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="BaixarRelatorio.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="BaixarRelatorio.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="484,122" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="BaixarRelatorio.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <scg:Dictionary x:TypeArguments="x:String, Argument" />
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ConfigurarDados.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="484,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="ConfigurarDados.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ConfigurarDados.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="484,122" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="ConfigurarDados.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <scg:Dictionary x:TypeArguments="x:String, Argument" />
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Controle de Acesso" sap:VirtualizedContainerService.HintSize="484,759" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="13392787-c7ed-414c-92c8-57f2634f5d4f" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Controle de Acesso" sap:VirtualizedContainerService.HintSize="484,768" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="13392787-c7ed-414c-92c8-57f2634f5d4f" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
