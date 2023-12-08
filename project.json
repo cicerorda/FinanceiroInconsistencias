@@ -1,6 +1,5 @@
 {
   "name": "FinanceiroInconsistencias",
-  "projectId": "cb524475-4a90-4096-874f-f7270aafab14",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
@@ -16,7 +15,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.6.1.0",
-  "projectVersion": "1.0.5",
+  "projectVersion": "1.0.8",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -24,7 +23,6 @@
     "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
-    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -46,8 +44,7 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": true,
-    "saveToCloud": false
+    "modernBehavior": true
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
