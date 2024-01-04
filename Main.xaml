@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1152,1999</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1152,1252</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -109,16 +109,15 @@
       <AssemblyReference>UiPath.Mail</AssemblyReference>
       <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
       <AssemblyReference>System.Collections.Immutable</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="546,1894" sap2010:WorkflowViewState.IdRef="Sequence_11">
+  <Sequence sap:VirtualizedContainerService.HintSize="496,1187" sap2010:WorkflowViewState.IdRef="Sequence_11">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ForEachFileX DisplayName="For Each File in Folder" Folder="[System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), &quot;Downloads&quot;)]" sap:VirtualizedContainerService.HintSize="484,478" sap2010:WorkflowViewState.IdRef="ForEachFileX_1" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+    <ui:ForEachFileX DisplayName="For Each File in Folder" Folder="[System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), &quot;Downloads&quot;)]" sap:VirtualizedContainerService.HintSize="434,478" sap2010:WorkflowViewState.IdRef="ForEachFileX_1" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
       <ui:ForEachFileX.Body>
         <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
           <ActivityAction.Argument1>
@@ -138,34 +137,29 @@
         </ActivityAction>
       </ui:ForEachFileX.Body>
     </ui:ForEachFileX>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="LogarNewcon.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="484,122" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="LogarNewcon.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="LogarNewcon.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="434,122" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="LogarNewcon.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <scg:Dictionary x:TypeArguments="x:String, Argument" />
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="BaixarRelatorio.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="484,122" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="BaixarRelatorio.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="BaixarRelatorio.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="434,122" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="BaixarRelatorio.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <scg:Dictionary x:TypeArguments="x:String, Argument" />
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ConfigurarDados.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="484,122" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="ConfigurarDados.xaml">
-      <ui:InvokeWorkflowFile.Arguments>
-        <scg:Dictionary x:TypeArguments="x:String, Argument" />
-      </ui:InvokeWorkflowFile.Arguments>
-    </ui:InvokeWorkflowFile>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Controle de Acesso" sap:VirtualizedContainerService.HintSize="484,768" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="13392787-c7ed-414c-92c8-57f2634f5d4f" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Controle de Acesso" sap:VirtualizedContainerService.HintSize="434,61" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="13392787-c7ed-414c-92c8-57f2634f5d4f" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,469" sap2010:WorkflowViewState.IdRef="Sequence_12">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,496" sap2010:WorkflowViewState.IdRef="Sequence_12">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'TPanel'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="13392787-c7ed-414c-92c8-57f2634f5d4f" Version="V3">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'TPanel'" sap:VirtualizedContainerService.HintSize="338,166" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="13392787-c7ed-414c-92c8-57f2634f5d4f" Version="V3">
               <uix:NClick.Target>
                 <uix:TargetAnchorable DesignTimeRectangle="504, 84, 534, 94" DesignTimeScaleFactor="1" FriendlyName="'TPanel'" FullSelectorArgument="&lt;wnd cls='TTabSheet' title='tshSistema' /&gt;&lt;wnd cls='TPanel' idx='4' /&gt;" FuzzySelectorArgument="&lt;wnd cls='TTabSheet' title='tshSistema' /&gt;&lt;wnd cls='TPanel' /&gt;" Guid="4c2724e4-c574-4a3d-bdf5-ae1bb09c37a2" ImageBase64="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" InformativeScreenshot="6465c23daeb027cf01112dca257a8b1d.png" ScopeSelectorArgument="&lt;wnd app='controleacesso.exe' cls='TfrmMain' title='Controle de Acesso' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.PointOffset>
@@ -174,7 +168,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '&amp;Yes'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="13392787-c7ed-414c-92c8-57f2634f5d4f" Version="V3">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '&amp;Yes'" sap:VirtualizedContainerService.HintSize="338,166" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="13392787-c7ed-414c-92c8-57f2634f5d4f" Version="V3">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CvElementArea="34, 122, 88, 26" CvTextArea="68, 128, 20, 12" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="35, 122, 88, 26" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'&amp;Yes'" FullSelectorArgument="&lt;wnd ctrlid='6' title='&amp;amp;Yes' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='6' title='&amp;amp;Yes' check:text='&amp;amp;Yes' /&gt;" Guid="4f59bb64-a9a7-4f12-bd4d-045107fbb438" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFwAAAAeCAYAAAChf3k/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEGSURBVGhD7dXBDcMgDIVh78Q2LMMqLJAhGCUbsIELJKkgUdtD01csvcN3iMXplyGSc1bCYXAwBgcbgi/LQj/QN74EX9eVbsTgYAwOxuBgDA7G4GAmgkcv6kIa59Gr+DjODLCx4SmoE6/xOUsanNOQujNG2AheDFtudLsrM8HblrugqW23qI/dXESlOW7BdmabdWcnYCd4UbfchyN8nUX10j0tZfPbLZj4BpgK3kL2Gzts966G3ueXH+0EbAU/b/TlZzpKwfFJ+c4pePt+v8k1+kybbjx4cX5W6pOyPz2b1zfgH4wFt4/BwRgcjMHBGByMwcEYHOxjcLpf33gITr/H4GAMDpX1AYi4tMDIwQowAAAAAElFTkSuQmCC" InformativeScreenshot="bf7db1db47999058fbbe4653cf5ee66a.png" ScopeSelectorArgument="&lt;wnd app='controleacesso.exe' cls='#32770' title='Confirmação' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
               </uix:NClick.Target>
@@ -185,6 +179,17 @@
       <uix:NApplicationCard.TargetApp>
         <uix:TargetApp Area="0, 0, 0, 0" FilePath="C:\Newcon4_Funcional\controleacesso.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFiSURBVDhPldLPKwRxGMfxGZFfxbpIbMni5sAWF/EHSH4WB7l+HaYctG7chpycnFwc9+rAyclNlIuc1kFSpFWK1o8L7+c7z0yzg9p96tV8n/l+n8/uzo4TlfFXcVelgk5Txt/AMWYqtIKSTlNBwJ52jjs81YYmbaOSe0hxNvNvAAdmcY203dOiH8QVxqMAmlo0a8A261Y8YEfnbNG7OMWJrOMBkxiiWUc3600U0Y4WnZdzE/jEqL0RCzhHlqbLHZnuYP0ECenFsg7X4QyHcJMB38jqQfkJj5AHuA+j9+fxBXvOVjIAnXhBDvV4htH1JfIIPl3qj4Bd3CKFBkiYBCzhHQM6GlQiYA6v8GSPaxjgoYAD2LmoEgHygG7QKHtcw4ALvKHfDsUrFvChhxe4USN7rCVA/o0StmBnyioW0Ie0s5iTl8OepJeXJoMe2NBfFQZEZfwxHEG+SSU8lAWsoVgd//4HPPLtTo+Vlz0AAAAASUVORK5CYII=" InformativeScreenshot="2bae7beb11e489fdfcec0ad5be85a943.png" Selector="&lt;wnd app='controleacesso.exe' cls='TfrmMain' title='Controle de Acesso' /&gt;" Title="Controle de Acesso" />
       </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ConfigurarDados.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="434,122" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="ConfigurarDados.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
   </Sequence>
 </Activity>
